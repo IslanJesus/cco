@@ -102,8 +102,8 @@ body{
     width: 120px;
     height: 30px;
     color: black;
-    background: rgb(207, 59, 59);
-    border: 5px solid rgb(207, 59, 59);
+    background: #F0EE19;
+    border: 5px solid #F0EE19;
     transition: none;
     -webkit-transition: .4s;
 }
