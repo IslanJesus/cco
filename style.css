@@ -137,7 +137,7 @@ body{
     display: block
 }
 
-.tcr {
+.tcr > h1 {
 	background-color: blue;
 }
 
