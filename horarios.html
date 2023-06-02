@@ -31,60 +31,55 @@
     </header>
     <main class="main-horarios">
 
+        <section class="container">
 
-        <label class="select">
-            <select name="Escolha" class="select-box">
-                <a href="horarios.html">
-                    <option value="ns">Dias úteis</option>
-                </a>
-                <a href="horarios-sabado-domingo.html">
-                    <option value="nt">Sábado/Domingo</option>
-                </a>
-            </select>
-            <button type="submit">Escolha</button>
-        </label>
+            <div class="terminal" onclick="showHide ('#tci')">
+                <h2>Terminal Central (TCI)</h2>
+            </div>
+            <div class="descricao-terminal" id="tci">
 
-        <main class="titulo-terminais">
-            <h1>Terminal Central (TCS)</h1>
-        </main>
+            </div>
 
-        <main>
-            <h1> Terminal Central (TCI) </h1>
-        </main>
+            <div class="terminal" onclick="showHide ('#tcs')">
+                <h2>Terminal Central (TCS)</h2>
+            </div>
+            <div class="descricao-terminal" id="tcs">
 
-        <main>
-            <h1>Terminal Ouro Verde (TO)</h1>
-            <iframe
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKlGbSHkg9QZ-Vn_4oVntmVWWqsRT1DfYae0V4wdEe-AZV3ei1tnyOZYlk9qxxqQ/pubhtml?widget=true&amp;headers=false"
-                class="semana-horarios"></iframe>
-        </main>
+            </div>
 
-        <main>
-            <h1>Terminal Vivi Xavier (TVX)</h1>
-            <iframe
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjAQsogxfW7kAw4UrF2D3zUifd67e7uwKRDAp0lzfsnuFkFwYZ61c3ejiRUuaq4A/pubhtml?widget=true&amp;headers=false"
-                class="semana-horarios"></iframe>
-        </main>
-        <main>
-            <h1>Terminal Milton Gavetti (TMG)</h1>
+            <div class="terminal" onclick="showHide ('#tmg')">
+                <h2>Terminal Milton Gavetti (TMG)</h2>
+            </div>
+            <div class="descricao-terminal" id="tmg">
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTGf_QY96jEKlpw0sR5i3TFwISLUbhM4zQihRHIQpXYP3JY3XYp1i1kpHyRPOXkg/pubhtml?widget=true&amp;headers=false" class="semana-horarios"></iframe>
+            </div>
 
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTGf_QY96jEKlpw0sR5i3TFwISLUbhM4zQihRHIQpXYP3JY3XYp1i1kpHyRPOXkg/pubhtml?widget=true&amp;headers=false" class="semana-horarios"></iframe>
-        </main>
+            <div class="terminal" onclick="showHide ('#to')">
+                <h2>Terminal Ouro Verde (TO)</h2>
+            </div>
+            <div class="descricao-terminal" id="to">
+                <iframe
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKlGbSHkg9QZ-Vn_4oVntmVWWqsRT1DfYae0V4wdEe-AZV3ei1tnyOZYlk9qxxqQ/pubhtml?widget=true&amp;headers=false"
+                    class="semana-horarios"></iframe>
+            </div>
+            <div class="terminal" onclick="showHide ('#tv')">
+                <h2>Terminal Vivi Xavier (TV)</h2>
+            </div>
+            <div class="descricao-terminal" id="tv">
+                <iframe
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjAQsogxfW7kAw4UrF2D3zUifd67e7uwKRDAp0lzfsnuFkFwYZ61c3ejiRUuaq4A/pubhtml?widget=true&amp;headers=false"
+                    class="semana-horarios"></iframe>
+            </div>
 
-        <main>
-            <h1>Terminal Oeste (TRO)</h1>
-        </main>
-        <main>
-            <h1>Estação Shopping Catuaí (TSH)</h1>
-        </main>
-        <main>
-            <h1>Terminal Acapulco (TA)</h1>
-        </main>
-        
-        <main class="tcr">
-            <h1> Linhas da TCR </h1>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTcruOp8Q0W1HyRqKgCruGeWHs14Zf220rJLwyf9d36FrBeXAthIWix3Bd5bjjWYAs5Wk7JldyCJqI8/pubhtml?widget=true&amp;headers=false" class="semana-horarios"></iframe>
-        </main>    
+            <div class="terminal" onclick="showHide ('#tro')">
+                <h2>Terminal Região Oeste (TRO)</h2>
+            </div>
+            <div class="descricao-terminal" id="tro">
+
+            </div>
+
+
+        </section>
 
     </main>
     <footer class="footer">
@@ -93,7 +88,9 @@
                 style="color: yellow; text-decoration: none;">Islan</a>
         </span>
     </footer>
+    <script src="js/script.js">
 
+    </script>
 </body>
 
 </html>
