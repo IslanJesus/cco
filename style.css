@@ -303,8 +303,9 @@ section.container div.descricao-terminal{
 }
 
 section.container div.descricao-terminal.ativo {
-    height: 1050px;
-    width: 1300px;
+    min-width: 320px;
+    max-width: 1600px;
+    height: 1110px;
     transition: 0.3s;
     background-color: rgba(245, 133, 41, 0.356);
     
