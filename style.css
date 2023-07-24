@@ -87,7 +87,7 @@ body {
     flex-direction: column;
     position: relative;
     bottom: px;
-    
+
     font-family: 'Poppins', sans-serif;
     height: 500px;
 }
@@ -193,8 +193,75 @@ ul {
         display: block;
     }
 
+    /* creditos */
 
-    .footer-1 > p {
+    #main-credits {
+        height: 70vh;
+    }
+
+    .linha-vertical {
+        background-color: black;
+        height: 280px;
+        width: 3px;
+        display: block;
+        position: relative;
+        left: 34vw;
+        bottom: 9vh;
+
+    }
+
+    #titulo {
+        font-size: 22px;
+    }
+
+    #devs-container h2,
+    h1 {
+        color: rgb(85, 73, 73);
+        padding-left: 1vw;
+    }
+
+    #a1 {
+        position: relative;
+        left: 2vw;
+        top: 24vh;
+        height: 52vh;
+    }
+    #devs-container > article {
+        width: 50vw;
+    }
+
+    #container-credits H1 {
+        position: relative;
+        bottom: 5vh;
+        left: 29vw;
+    }
+
+    #main-credits h2 {
+        position: relative;
+        bottom: 9vh;
+        left: 25vw;
+        width: 60%;
+        text-decoration: none;
+        font-size: 26px;
+    }
+
+    #devs {
+        position: relative;
+        right: 30vw;
+        top: 137px;
+        font-size: 16px;
+    }
+
+    #dev {
+        position: relative;
+        right: 42vw;
+        top: 25vh;
+        visibility: visible;
+    }
+
+    /* footer */
+
+    .footer-1>p {
         font-size: 14px;
         position: relative;
         left: 7vw;
@@ -205,19 +272,23 @@ ul {
         width: 30px;
     }
 
-    .footer > span{
+    .footer>span {
         font-size: 16px;
     }
-    
+
     .logorodape {
         margin-right: 100px;
     }
-    
+
     .footer-1 > div {
         position: relative;
         top: 1vh;
         font-size: 13px;
         font-weight: bold;
+    }
+
+    #iss {
+        visibility: hidden;
     }
 }
 
@@ -271,6 +342,7 @@ ul {
 .input-menu-all:checked~.list-menu .link-menu {
     text-align: left;
 }
+
 
 /*HORÁRIOS */
 .main-horarios {
@@ -333,16 +405,18 @@ div.terminal {
 
 
 
-/*ITINERÁRIOS*/
+/*ITINERARIOS*/
 
-
+.whatsap {
+    
+}
 
 .main-itinerarios {
     margin: 20px;
     width: auto;
     background-image: linear-gradient(to bottom, #f5f5dc, #a5a585);
     position: relative;
-   
+    height: 80vh;
 }
 
 .itinerarios-listas {
@@ -373,6 +447,11 @@ div.terminal {
 
 }
 
+.main-itinerarios p {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px;
+}
+
 .select-shadow {
     height: 30px;
 
@@ -388,13 +467,14 @@ div.terminal {
 }
 
 
-.att  {
+.att {
     background-color: #7cd164;
 }
 
 .att2 {
     background-color: #FF750A;
-}    
+}
+
 .main-itinerarios h2 {
     font-size: medium;
     font-family: 'Ubuntu', cursive;
@@ -402,12 +482,11 @@ div.terminal {
 }
 
 .WhatsApp {
-    
-    background-color: rgba(107, 228, 26, 0.404);
-    border: 3px solid rgba(40, 233, 15, 0.301);
+
+    box-shadow: rgba(0, 255, 21, 0.479) 0px 5px 15px;
     border-radius: 10px;
-    height:50px;
-    width:50px;
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -438,23 +517,26 @@ main .tcr>h1 {
 /*QUEM SOMOS*/
 
 .main-credits {
-    width: 60vw;
-    height: 70vh;
+    width: 70vw;
+    height: 60vh;
     margin-left: 10px;
     background-image: #fff;
     position: relative;
-    left: 18vw;
+    left: 12vw;
     border: 4px solid black;
     border-radius: 3px;
+    padding: 0px;
 }
 
 .container-credits {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-self: center;
     align-items: center;
+    height: 17vh;
+    width: 10vw;
+    margin: 0px;
+    padding: 0px;
 }
-
 
 .main-credits article {
     font-size: 20px;
@@ -493,53 +575,72 @@ main .tcr>h1 {
     justify-content: center;
 }
 
-.devs-container h2, h1 {
+.devs-container h2,
+h1 {
     color: rgb(85, 73, 73);
     padding-left: 1vw;
-}
-
-.a1 {
-    margin-left: 5vw;
-    display: flex;
-    justify-content: space-around;
 }
 
 .devs-container article {
     background-color: yellow;
     background-image: linear-gradient(to bottom, rgb(247, 25, 25), rgba(252, 71, 0, 0.301));
-    width: 600px;
+    width: 40vw;
     height: 400px;
     opacity: 0.5;
     margin: 0px;
     position: relative;
-    left: 12vw;
+    top: 26vh;
+    right: 19vw;
+
 }
 
-.container-credits h2 {
-    position: relative;
-    bottom: 53vh;
+.main-credits {
+    overflow: hidden;
+    height: 84vh;
 }
 
-.linha-vertical {
-    background-color: black;
-    height: 280px;
-    width: 3px;
-    display: block;
-    position: relative;
-    left: 30vw;
-    bottom: 52vh;
-}
-
-.devs {
-    position: relative;
-    right: 15vw;
-    top: 10vh;
+.main-credits>article {
+    width: 70vw;
 }
 
 .dev {
     position: relative;
-    right: 22vw;
-    top: 10vh;
+    right: 75vw;
+    font-size: 5px;
+    top: 30vh;
+}
+
+.devs {
+    position: relative;
+    right: 109vw;
+    font-size: 5px;
+    top: 60vh;
+}
+
+.container-credits h1 {
+    position: relative;
+    left: 18vw;
+    bottom: 3vh;
+}
+
+.devs-container > article {
+    height: 70vh;
+    width: 58vw;
+    position: relative;
+    top: 36vh;
+    right: 25vw;
+}
+
+.main-credits h2 {
+    position: relative;
+    bottom: 6vh;
+    left: 11vw;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.titulo {
+    font-size: 15px;
 }
 
 /*FISCAL*/
@@ -619,7 +720,7 @@ footer>p {
     background-image: linear-gradient(to bottom, rgb(247, 25, 25), rgba(252, 71, 0, 0.301));
     background-color: yellow;
     width: 100%;
-    height: 23vh;
+    height: 24vh;
     margin-top: 10px;
     font-family: 'Pontua One', cursive;
     font-weight: bold;
@@ -646,7 +747,7 @@ footer>p {
     align-items: left;
 }
 
-footer > span {
+footer>span {
     display: flex;
     justify-content: center;
     font-family: 'Taviraj', serif;
@@ -661,23 +762,28 @@ footer > span {
 
 .footer-creditos {
     margin: 10px;
-    font-size: 10px;
+    font-size: 8px;
     height: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 3vw;
 }
 
-.footer-creditos a:hover, .icons a:hover {
+.footer-creditos a:hover,
+.icons a:hover {
     color: #fff;
 }
 
 .logorodape {
     width: 100px;
-    height:100px;
+    height: 100px;
     position: relative;
-    
+
 }
 
 .set {
-    margin: 10px;
+    position: relative;
+    bottom: 5px; 
 }
 
 #footer {
@@ -688,9 +794,9 @@ footer > span {
 /*TESTE */
 
 .container-itinerario {
-   
+
     height: 70vh;
     display: flex;
     justify-content: center;
-    
+
 }
