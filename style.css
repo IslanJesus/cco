@@ -407,10 +407,6 @@ div.terminal {
 
 /*ITINERARIOS*/
 
-.whatsap {
-    
-}
-
 .main-itinerarios {
     margin: 20px;
     width: auto;
@@ -447,9 +443,16 @@ div.terminal {
 
 }
 
+.main-itinerarios p, h2, select {
+    position: relative;
+    left: 2vw;
+}
+
 .main-itinerarios p {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 5px;
+    width: 19vw;
+    height: auto;
 }
 
 .select-shadow {
@@ -487,6 +490,8 @@ div.terminal {
     border-radius: 10px;
     height: 50px;
     width: 50px;
+    position: relative;
+    left: 2vw;
 }
 
 
