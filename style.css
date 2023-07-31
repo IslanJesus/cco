@@ -80,6 +80,8 @@ body {
     z-index: 0;
 }
 
+
+
 .main-container {
     font-size: 20px;
     display: flex;
@@ -87,12 +89,13 @@ body {
     flex-direction: column;
     position: relative;
     bottom: px;
-
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: 'Poppins', sans-serif;
     height: 500px;
 }
 
-.main-container a {
+.main-container .escala {
     background-color: rgb(73, 73, 173);
     text-decoration: none;
     color: #fff;
@@ -100,7 +103,7 @@ body {
     border-radius: 6px;
 }
 
-.main-container a:hover {
+.main-container .escala:hover {
     background-color: rgba(112, 240, 240, 0.575);
     color: rgb(0, 0, 141);
 }
@@ -257,6 +260,41 @@ ul {
         right: 42vw;
         top: 25vh;
         visibility: visible;
+    }
+
+    /* home */
+    .box > a {
+        visibility: visible;
+        height: 23vh;
+        width: 15VW;
+        text-decoration: none;
+        font-family: 'Taviraj', serif;
+        text-transform: uppercase;
+        color: black;
+    }
+    
+    .testando{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .box {
+        border: 4px solid black;
+        height: 23vh;
+        width: 20VW;
+        margin: 10px;
+        padding: 1%;
+    }
+    
+    .box:hover {
+        background-color: yellow;
+        background-image: linear-gradient(to bottom, rgb(247, 25, 25), rgba(252, 71, 0, 0.301));
+        border-radius: 3%;
+    }
+    
+    .box h2, a {
+        font-size: 20px;
+        font-family: 'Taviraj', serif;
     }
 
     /* footer */
@@ -728,7 +766,7 @@ footer>p {
     background-image: linear-gradient(to bottom, rgb(247, 25, 25), rgba(252, 71, 0, 0.301));
     background-color: yellow;
     width: 100%;
-    height: 24vh;
+    height: 27vh;
     margin-top: 10px;
     font-family: 'Pontua One', cursive;
     font-weight: bold;
@@ -818,7 +856,7 @@ footer>span {
 
 .arvore-links {
     width: 100%;
-    background-image: linear-gradient(#555, #aaa1a1);
+    background-image: linear-gradient(#292828, #aaa1a1);
     height: 100%;
     display: flex;
     align-items: center;
@@ -830,10 +868,12 @@ footer>span {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin: 30px 0px 70px 0px;
+    margin: 30px 0px 30px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+
 }
 .circle h1 {
     text-transform: uppercase;
